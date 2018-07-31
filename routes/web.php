@@ -15,6 +15,5 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+// 后台首页
 Route::get('/admin/index','admin\IndexController@index');
-
-Route::get('/admin/sy','admin\IndexController@sy');

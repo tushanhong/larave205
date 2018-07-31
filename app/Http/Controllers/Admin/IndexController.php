@@ -9,11 +9,6 @@ class IndexController extends Controller
 {
     public function index()
     {
-    	return view('layout/admin');
-    }
-
-    public function sy()
-    {
     	return view('admin/index');
     }
 }
